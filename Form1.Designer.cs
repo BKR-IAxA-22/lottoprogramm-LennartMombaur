@@ -47,6 +47,7 @@
             // auslosen
             // 
             this.auslosen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.auslosen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.auslosen.Location = new System.Drawing.Point(260, 80);
             this.auslosen.Name = "auslosen";
             this.auslosen.Size = new System.Drawing.Size(180, 60);
@@ -58,6 +59,7 @@
             // zahl1
             // 
             this.zahl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.zahl1.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl1.Location = new System.Drawing.Point(60, 254);
             this.zahl1.Name = "zahl1";
             this.zahl1.ReadOnly = true;
@@ -68,6 +70,7 @@
             // zahl2
             // 
             this.zahl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.zahl2.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl2.Location = new System.Drawing.Point(160, 254);
             this.zahl2.Name = "zahl2";
             this.zahl2.ReadOnly = true;
@@ -78,6 +81,7 @@
             // zahl3
             // 
             this.zahl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.zahl3.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl3.Location = new System.Drawing.Point(260, 254);
             this.zahl3.Name = "zahl3";
             this.zahl3.ReadOnly = true;
@@ -88,6 +92,7 @@
             // zahl4
             // 
             this.zahl4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.zahl4.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl4.Location = new System.Drawing.Point(360, 254);
             this.zahl4.Name = "zahl4";
             this.zahl4.ReadOnly = true;
@@ -98,6 +103,7 @@
             // zahl6
             // 
             this.zahl6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.zahl6.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl6.Location = new System.Drawing.Point(560, 254);
             this.zahl6.Name = "zahl6";
             this.zahl6.ReadOnly = true;
@@ -108,6 +114,7 @@
             // zahl5
             // 
             this.zahl5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.zahl5.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl5.Location = new System.Drawing.Point(460, 254);
             this.zahl5.Name = "zahl5";
             this.zahl5.ReadOnly = true;

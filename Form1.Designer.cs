@@ -42,6 +42,7 @@
             this.eingabe3 = new System.Windows.Forms.TextBox();
             this.eingabe2 = new System.Windows.Forms.TextBox();
             this.eingabe1 = new System.Windows.Forms.TextBox();
+            this.überschriftausgabe = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // auslosen
@@ -176,6 +177,17 @@
             this.eingabe1.TabIndex = 13;
             this.eingabe1.TextChanged += new System.EventHandler(this.eingabe1_TextChanged);
             // 
+            // überschriftausgabe
+            // 
+            this.überschriftausgabe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.überschriftausgabe.Font = new System.Drawing.Font("Microsoft Yi Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.überschriftausgabe.Location = new System.Drawing.Point(279, 179);
+            this.überschriftausgabe.Name = "überschriftausgabe";
+            this.überschriftausgabe.ReadOnly = true;
+            this.überschriftausgabe.Size = new System.Drawing.Size(100, 28);
+            this.überschriftausgabe.TabIndex = 19;
+            this.überschriftausgabe.TextChanged += new System.EventHandler(this.überschriftausgabe_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -184,6 +196,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(678, 453);
+            this.Controls.Add(this.überschriftausgabe);
             this.Controls.Add(this.eingabe5);
             this.Controls.Add(this.eingabe6);
             this.Controls.Add(this.eingabe4);
@@ -222,6 +235,7 @@
         private System.Windows.Forms.TextBox eingabe3;
         private System.Windows.Forms.TextBox eingabe2;
         private System.Windows.Forms.TextBox eingabe1;
+        private System.Windows.Forms.TextBox überschriftausgabe;
     }
 }
 

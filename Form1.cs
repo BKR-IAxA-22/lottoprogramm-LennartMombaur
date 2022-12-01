@@ -20,6 +20,8 @@ namespace Lottoprogramm
         int[] lottozahlen= new int[6];
         Random zahlengen = new Random();
         bool losen=false;
+        string datum = 1;
+        public System.Windows.Forms.DateTimePickerFormat Format { get; set; }
         public void auslosen_Click(object sender, EventArgs e)
         {
             losen = true;
@@ -44,10 +46,17 @@ namespace Lottoprogramm
             zahl4.Text = Convert.ToString(lottozahlen[3]);
             zahl5.Text = Convert.ToString(lottozahlen[4]);
             zahl6.Text = Convert.ToString(lottozahlen[5]);
+            überschriftausgabe.Text = Convert.ToString("Die Lottozahlen vom" + "");
+        }
+        public void SetMyCustomFormat()
+        {
+            // Set the Format type and the CustomFormat string.
+            dateTimePicker1.Format = DateTimePickerFormat.Custom;
+            dateTimePicker1.CustomFormat = "MMMM dd, yyyy - dddd";
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+           
         }
 
         private void zahl1_TextChanged(object sender, EventArgs e)
@@ -106,6 +115,11 @@ namespace Lottoprogramm
         }
 
         private void eingabe6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void überschriftausgabe_TextChanged(object sender, EventArgs e)
         {
 
         }

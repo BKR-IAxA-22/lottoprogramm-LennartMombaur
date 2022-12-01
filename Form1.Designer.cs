@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.auslosen = new System.Windows.Forms.Button();
             this.zahl1 = new System.Windows.Forms.TextBox();
             this.zahl2 = new System.Windows.Forms.TextBox();
@@ -113,7 +114,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.ClientSize = new System.Drawing.Size(692, 453);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ClientSize = new System.Drawing.Size(678, 453);
             this.Controls.Add(this.zahl5);
             this.Controls.Add(this.zahl6);
             this.Controls.Add(this.zahl4);
@@ -122,6 +125,8 @@
             this.Controls.Add(this.zahl1);
             this.Controls.Add(this.auslosen);
             this.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

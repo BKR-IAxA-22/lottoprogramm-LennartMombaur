@@ -79,5 +79,35 @@ namespace Lottoprogramm
         {
           
         }
+
+        private void eingabe1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void eingabe2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void eingabe3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void eingabe4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void eingabe5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void eingabe6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

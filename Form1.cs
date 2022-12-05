@@ -20,8 +20,7 @@ namespace Lottoprogramm
         int[] lottozahlen= new int[6];
         Random zahlengen = new Random();
         bool losen=false;
-        string datum = "5.september";
-        public System.Windows.Forms.DateTimePickerFormat Format { get; set; }
+        
         public void auslosen_Click(object sender, EventArgs e)
         {
             losen = true;
@@ -54,7 +53,7 @@ namespace Lottoprogramm
             zahl4.Text = Convert.ToString(lottozahlen[3]);
             zahl5.Text = Convert.ToString(lottozahlen[4]);
             zahl6.Text = Convert.ToString(lottozahlen[5]);
-            
+            überschriftausgabe.Text = Convert.ToString("Die Lottozahlen vom " + DateTime.Now);
         }
         public void SetMyCustomFormat()
         {
@@ -62,7 +61,7 @@ namespace Lottoprogramm
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            überschriftausgabe.Text = Convert.ToString("Die Lottozahlen vom " + datum);
+            überschriftausgabe.Text = Convert.ToString("Die Lottozahlen vom " + DateTime.Now);
             überschrifteingabe.Text = Convert.ToString("Deine Lottozahlen");
 
         }

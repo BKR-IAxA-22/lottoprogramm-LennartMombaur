@@ -196,10 +196,10 @@
             this.überschriftausgabe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.überschriftausgabe.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.überschriftausgabe.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.überschriftausgabe.Location = new System.Drawing.Point(160, 179);
+            this.überschriftausgabe.Location = new System.Drawing.Point(121, 179);
             this.überschriftausgabe.Name = "überschriftausgabe";
             this.überschriftausgabe.ReadOnly = true;
-            this.überschriftausgabe.Size = new System.Drawing.Size(360, 30);
+            this.überschriftausgabe.Size = new System.Drawing.Size(442, 30);
             this.überschriftausgabe.TabIndex = 19;
             this.überschriftausgabe.TextChanged += new System.EventHandler(this.überschriftausgabe_TextChanged);
             // 

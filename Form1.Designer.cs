@@ -208,10 +208,10 @@
             this.überschrifteingabe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.überschrifteingabe.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.überschrifteingabe.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.überschrifteingabe.Location = new System.Drawing.Point(159, 321);
+            this.überschrifteingabe.Location = new System.Drawing.Point(216, 321);
             this.überschrifteingabe.Name = "überschrifteingabe";
             this.überschrifteingabe.ReadOnly = true;
-            this.überschrifteingabe.Size = new System.Drawing.Size(360, 30);
+            this.überschrifteingabe.Size = new System.Drawing.Size(245, 30);
             this.überschrifteingabe.TabIndex = 20;
             this.überschrifteingabe.TextChanged += new System.EventHandler(this.überschrifteingabe_TextChanged);
             // 

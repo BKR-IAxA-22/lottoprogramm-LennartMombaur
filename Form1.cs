@@ -29,7 +29,15 @@ namespace Lottoprogramm
             {
                 for (int i = 0; i < lottozahlen.Length; i++)
                 {
-                   lottozahlen[i] = zahlengen.Next(1,49);
+                   int x = zahlengen.Next(1,49);
+                    if(lottozahlen.Contains(x))
+                    {
+                        i--;
+                    }
+                    else
+                    {
+                        lottozahlen[i] = x;
+                    }
 
                 }
             }
@@ -37,7 +45,7 @@ namespace Lottoprogramm
             {
                 for (int i = 1; i < lottozahlen.Length; i++)
                 {
-                    lottozahlen[i] = i;
+                    lottozahlen[i] = 0;
                 }
             }
             zahl1.Text = Convert.ToString(lottozahlen[0]);

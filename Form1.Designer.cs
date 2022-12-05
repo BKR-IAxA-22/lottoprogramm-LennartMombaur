@@ -43,12 +43,14 @@
             this.eingabe2 = new System.Windows.Forms.TextBox();
             this.eingabe1 = new System.Windows.Forms.TextBox();
             this.überschriftausgabe = new System.Windows.Forms.TextBox();
+            this.überschrifteingabe = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // auslosen
             // 
             this.auslosen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.auslosen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.auslosen.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.auslosen.Location = new System.Drawing.Point(260, 80);
             this.auslosen.Name = "auslosen";
             this.auslosen.Size = new System.Drawing.Size(180, 60);
@@ -61,10 +63,11 @@
             // 
             this.zahl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.zahl1.Cursor = System.Windows.Forms.Cursors.No;
-            this.zahl1.Location = new System.Drawing.Point(60, 254);
+            this.zahl1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl1.Location = new System.Drawing.Point(60, 249);
             this.zahl1.Name = "zahl1";
             this.zahl1.ReadOnly = true;
-            this.zahl1.Size = new System.Drawing.Size(60, 22);
+            this.zahl1.Size = new System.Drawing.Size(60, 25);
             this.zahl1.TabIndex = 7;
             this.zahl1.TextChanged += new System.EventHandler(this.zahl1_TextChanged);
             // 
@@ -72,10 +75,11 @@
             // 
             this.zahl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.zahl2.Cursor = System.Windows.Forms.Cursors.No;
-            this.zahl2.Location = new System.Drawing.Point(160, 254);
+            this.zahl2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl2.Location = new System.Drawing.Point(160, 249);
             this.zahl2.Name = "zahl2";
             this.zahl2.ReadOnly = true;
-            this.zahl2.Size = new System.Drawing.Size(60, 22);
+            this.zahl2.Size = new System.Drawing.Size(60, 25);
             this.zahl2.TabIndex = 8;
             this.zahl2.TextChanged += new System.EventHandler(this.zahl2_TextChanged);
             // 
@@ -83,10 +87,11 @@
             // 
             this.zahl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.zahl3.Cursor = System.Windows.Forms.Cursors.No;
-            this.zahl3.Location = new System.Drawing.Point(260, 254);
+            this.zahl3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl3.Location = new System.Drawing.Point(260, 249);
             this.zahl3.Name = "zahl3";
             this.zahl3.ReadOnly = true;
-            this.zahl3.Size = new System.Drawing.Size(60, 22);
+            this.zahl3.Size = new System.Drawing.Size(60, 25);
             this.zahl3.TabIndex = 9;
             this.zahl3.TextChanged += new System.EventHandler(this.zahl3_TextChanged);
             // 
@@ -94,10 +99,11 @@
             // 
             this.zahl4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.zahl4.Cursor = System.Windows.Forms.Cursors.No;
-            this.zahl4.Location = new System.Drawing.Point(360, 254);
+            this.zahl4.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl4.Location = new System.Drawing.Point(360, 249);
             this.zahl4.Name = "zahl4";
             this.zahl4.ReadOnly = true;
-            this.zahl4.Size = new System.Drawing.Size(60, 22);
+            this.zahl4.Size = new System.Drawing.Size(60, 25);
             this.zahl4.TabIndex = 10;
             this.zahl4.TextChanged += new System.EventHandler(this.zahl4_TextChanged);
             // 
@@ -105,10 +111,11 @@
             // 
             this.zahl6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.zahl6.Cursor = System.Windows.Forms.Cursors.No;
-            this.zahl6.Location = new System.Drawing.Point(560, 254);
+            this.zahl6.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl6.Location = new System.Drawing.Point(560, 249);
             this.zahl6.Name = "zahl6";
             this.zahl6.ReadOnly = true;
-            this.zahl6.Size = new System.Drawing.Size(60, 22);
+            this.zahl6.Size = new System.Drawing.Size(60, 25);
             this.zahl6.TabIndex = 11;
             this.zahl6.TextChanged += new System.EventHandler(this.zahl6_TextChanged);
             // 
@@ -116,77 +123,97 @@
             // 
             this.zahl5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.zahl5.Cursor = System.Windows.Forms.Cursors.No;
-            this.zahl5.Location = new System.Drawing.Point(460, 254);
+            this.zahl5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl5.Location = new System.Drawing.Point(460, 249);
             this.zahl5.Name = "zahl5";
             this.zahl5.ReadOnly = true;
-            this.zahl5.Size = new System.Drawing.Size(60, 22);
+            this.zahl5.Size = new System.Drawing.Size(60, 25);
             this.zahl5.TabIndex = 12;
             this.zahl5.TextChanged += new System.EventHandler(this.zahl5_TextChanged);
             // 
             // eingabe5
             // 
             this.eingabe5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.eingabe5.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe5.Location = new System.Drawing.Point(460, 391);
             this.eingabe5.Name = "eingabe5";
-            this.eingabe5.Size = new System.Drawing.Size(60, 22);
+            this.eingabe5.Size = new System.Drawing.Size(60, 27);
             this.eingabe5.TabIndex = 18;
             this.eingabe5.TextChanged += new System.EventHandler(this.eingabe5_TextChanged);
             // 
             // eingabe6
             // 
             this.eingabe6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.eingabe6.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe6.Location = new System.Drawing.Point(560, 391);
             this.eingabe6.Name = "eingabe6";
-            this.eingabe6.Size = new System.Drawing.Size(60, 22);
+            this.eingabe6.Size = new System.Drawing.Size(60, 27);
             this.eingabe6.TabIndex = 17;
             this.eingabe6.TextChanged += new System.EventHandler(this.eingabe6_TextChanged);
             // 
             // eingabe4
             // 
             this.eingabe4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.eingabe4.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe4.Location = new System.Drawing.Point(360, 391);
             this.eingabe4.Name = "eingabe4";
-            this.eingabe4.Size = new System.Drawing.Size(60, 22);
+            this.eingabe4.Size = new System.Drawing.Size(60, 27);
             this.eingabe4.TabIndex = 16;
             this.eingabe4.TextChanged += new System.EventHandler(this.eingabe4_TextChanged);
             // 
             // eingabe3
             // 
             this.eingabe3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.eingabe3.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe3.Location = new System.Drawing.Point(260, 391);
             this.eingabe3.Name = "eingabe3";
-            this.eingabe3.Size = new System.Drawing.Size(60, 22);
+            this.eingabe3.Size = new System.Drawing.Size(60, 27);
             this.eingabe3.TabIndex = 15;
             this.eingabe3.TextChanged += new System.EventHandler(this.eingabe3_TextChanged);
             // 
             // eingabe2
             // 
             this.eingabe2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.eingabe2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe2.Location = new System.Drawing.Point(160, 391);
             this.eingabe2.Name = "eingabe2";
-            this.eingabe2.Size = new System.Drawing.Size(60, 22);
+            this.eingabe2.Size = new System.Drawing.Size(60, 27);
             this.eingabe2.TabIndex = 14;
             this.eingabe2.TextChanged += new System.EventHandler(this.eingabe2_TextChanged);
             // 
             // eingabe1
             // 
             this.eingabe1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.eingabe1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe1.Location = new System.Drawing.Point(60, 391);
             this.eingabe1.Name = "eingabe1";
-            this.eingabe1.Size = new System.Drawing.Size(60, 22);
+            this.eingabe1.Size = new System.Drawing.Size(60, 27);
             this.eingabe1.TabIndex = 13;
             this.eingabe1.TextChanged += new System.EventHandler(this.eingabe1_TextChanged);
             // 
             // überschriftausgabe
             // 
             this.überschriftausgabe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.überschriftausgabe.Font = new System.Drawing.Font("Microsoft Yi Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.überschriftausgabe.Location = new System.Drawing.Point(279, 179);
+            this.überschriftausgabe.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.überschriftausgabe.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.überschriftausgabe.Location = new System.Drawing.Point(160, 179);
             this.überschriftausgabe.Name = "überschriftausgabe";
             this.überschriftausgabe.ReadOnly = true;
-            this.überschriftausgabe.Size = new System.Drawing.Size(100, 28);
+            this.überschriftausgabe.Size = new System.Drawing.Size(360, 30);
             this.überschriftausgabe.TabIndex = 19;
             this.überschriftausgabe.TextChanged += new System.EventHandler(this.überschriftausgabe_TextChanged);
+            // 
+            // überschrifteingabe
+            // 
+            this.überschrifteingabe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.überschrifteingabe.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.überschrifteingabe.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.überschrifteingabe.Location = new System.Drawing.Point(159, 321);
+            this.überschrifteingabe.Name = "überschrifteingabe";
+            this.überschrifteingabe.ReadOnly = true;
+            this.überschrifteingabe.Size = new System.Drawing.Size(360, 30);
+            this.überschrifteingabe.TabIndex = 20;
+            this.überschrifteingabe.TextChanged += new System.EventHandler(this.überschrifteingabe_TextChanged);
             // 
             // Form1
             // 
@@ -196,6 +223,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(678, 453);
+            this.Controls.Add(this.überschrifteingabe);
             this.Controls.Add(this.überschriftausgabe);
             this.Controls.Add(this.eingabe5);
             this.Controls.Add(this.eingabe6);
@@ -236,6 +264,7 @@
         private System.Windows.Forms.TextBox eingabe2;
         private System.Windows.Forms.TextBox eingabe1;
         private System.Windows.Forms.TextBox überschriftausgabe;
+        private System.Windows.Forms.TextBox überschrifteingabe;
     }
 }
 

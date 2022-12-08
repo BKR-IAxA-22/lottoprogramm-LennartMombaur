@@ -48,7 +48,7 @@
             // 
             // auslosen
             // 
-            this.auslosen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.auslosen.BackColor = System.Drawing.Color.Orange;
             this.auslosen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.auslosen.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.auslosen.Location = new System.Drawing.Point(260, 80);
@@ -61,7 +61,7 @@
             // 
             // zahl1
             // 
-            this.zahl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.zahl1.BackColor = System.Drawing.Color.Orange;
             this.zahl1.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl1.Location = new System.Drawing.Point(60, 249);
@@ -73,7 +73,7 @@
             // 
             // zahl2
             // 
-            this.zahl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.zahl2.BackColor = System.Drawing.Color.Orange;
             this.zahl2.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl2.Location = new System.Drawing.Point(160, 249);
@@ -85,7 +85,7 @@
             // 
             // zahl3
             // 
-            this.zahl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.zahl3.BackColor = System.Drawing.Color.Orange;
             this.zahl3.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl3.Location = new System.Drawing.Point(260, 249);
@@ -97,7 +97,7 @@
             // 
             // zahl4
             // 
-            this.zahl4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.zahl4.BackColor = System.Drawing.Color.Orange;
             this.zahl4.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl4.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl4.Location = new System.Drawing.Point(360, 249);
@@ -109,7 +109,7 @@
             // 
             // zahl6
             // 
-            this.zahl6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.zahl6.BackColor = System.Drawing.Color.Orange;
             this.zahl6.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl6.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl6.Location = new System.Drawing.Point(560, 249);
@@ -121,7 +121,7 @@
             // 
             // zahl5
             // 
-            this.zahl5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.zahl5.BackColor = System.Drawing.Color.Orange;
             this.zahl5.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl5.Location = new System.Drawing.Point(460, 249);
@@ -133,7 +133,7 @@
             // 
             // eingabe5
             // 
-            this.eingabe5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.eingabe5.BackColor = System.Drawing.Color.Orange;
             this.eingabe5.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe5.Location = new System.Drawing.Point(460, 391);
             this.eingabe5.Name = "eingabe5";
@@ -143,7 +143,7 @@
             // 
             // eingabe6
             // 
-            this.eingabe6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.eingabe6.BackColor = System.Drawing.Color.Orange;
             this.eingabe6.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe6.Location = new System.Drawing.Point(560, 391);
             this.eingabe6.Name = "eingabe6";
@@ -153,7 +153,7 @@
             // 
             // eingabe4
             // 
-            this.eingabe4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.eingabe4.BackColor = System.Drawing.Color.Orange;
             this.eingabe4.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe4.Location = new System.Drawing.Point(360, 391);
             this.eingabe4.Name = "eingabe4";
@@ -163,7 +163,7 @@
             // 
             // eingabe3
             // 
-            this.eingabe3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.eingabe3.BackColor = System.Drawing.Color.Orange;
             this.eingabe3.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe3.Location = new System.Drawing.Point(260, 391);
             this.eingabe3.Name = "eingabe3";
@@ -173,7 +173,7 @@
             // 
             // eingabe2
             // 
-            this.eingabe2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.eingabe2.BackColor = System.Drawing.Color.Orange;
             this.eingabe2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe2.Location = new System.Drawing.Point(160, 391);
             this.eingabe2.Name = "eingabe2";
@@ -183,7 +183,7 @@
             // 
             // eingabe1
             // 
-            this.eingabe1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.eingabe1.BackColor = System.Drawing.Color.Orange;
             this.eingabe1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe1.Location = new System.Drawing.Point(60, 391);
             this.eingabe1.Name = "eingabe1";
@@ -193,7 +193,7 @@
             // 
             // überschriftausgabe
             // 
-            this.überschriftausgabe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.überschriftausgabe.BackColor = System.Drawing.Color.Orange;
             this.überschriftausgabe.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.überschriftausgabe.ForeColor = System.Drawing.SystemColors.MenuText;
             this.überschriftausgabe.Location = new System.Drawing.Point(121, 179);
@@ -205,7 +205,7 @@
             // 
             // überschrifteingabe
             // 
-            this.überschrifteingabe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.überschrifteingabe.BackColor = System.Drawing.Color.Orange;
             this.überschrifteingabe.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.überschrifteingabe.ForeColor = System.Drawing.SystemColors.MenuText;
             this.überschrifteingabe.Location = new System.Drawing.Point(216, 321);
